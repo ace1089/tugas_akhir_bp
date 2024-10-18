@@ -1,1 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <BorderPane layoutX="300.0" layoutY="162.0" prefHeight="600.0" prefWidth="1100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <center>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="533.0" prefWidth="874.0" stylesheets="@style.css">
+                           <styleClass>
+                              <String fx:value="shadow" />
+                              <String fx:value="white-bg" />
+                           </styleClass>
+                           <children>
+                              <Line endX="611.7999267578125" endY="-7.62939453125E-6" layoutX="115.0" layoutY="58.0" startX="-100.0" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </center>
+               <top>
+                  <AnchorPane prefHeight="45.0" prefWidth="1100.0" styleClass="top-semi-form" stylesheets="@style.css" BorderPane.alignment="CENTER">
+                     <children>
+                        <AnchorPane prefHeight="35.0" prefWidth="1100.0" styleClass="top-form" stylesheets="@style.css">
+                           <children>
+                              <Button layoutX="1048.0" layoutY="1.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="51.0" styleClass="close" stylesheets="@style.css">
+                                 <graphic>
+                                    <FontAwesomeIcon glyphName="CLOSE" size="1.2em" />
+                                 </graphic>
+                              </Button>
+                              <Button layoutX="1008.0" layoutY="1.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="40.0" styleClass="minimize" stylesheets="@style.css">
+                                 <graphic>
+                                    <FontAwesomeIcon glyphName="MINUS" size="1.2em" />
+                                 </graphic>
+                              </Button>
+                              <Label layoutX="14.0" layoutY="9.0" text="TodoList">
+                                 <graphic>
+                                    <FontAwesomeIcon glyphName="USERS" size="1.2em" />
+                                 </graphic>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </top>
+               <left>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="left-form" stylesheets="@style.css" BorderPane.alignment="CENTER">
+                     <children>
+                        <Button layoutX="13.0" layoutY="115.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="172.0" styleClass="nav-btn" stylesheets="@style.css" text="Home">
+                           <graphic>
+                              <FontAwesomeIcon fill="WHITE" glyphName="HOME" size="1.2em" />
+                           </graphic>
+                        </Button>
+                        <Button layoutX="14.0" layoutY="141.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="170.0" styleClass="nav-btn" stylesheets="@style.css" text="ListTugas">
+                           <graphic>
+                              <FontAwesomeIcon fill="WHITE" glyphName="BOOK" size="1.2em" />
+                           </graphic>
+                        </Button>
+                        <Line endX="74.80000305175781" endY="-7.62939453125E-6" layoutX="112.0" layoutY="105.0" startX="-100.0" stroke="WHITE" />
+                     </children>
+                  </AnchorPane>
+               </left>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
 
